@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2017, 11:19:46 AM
+    Author     : derickaljoe
+*/
+
+.menuTable{
+    font-size: 40px;
+    font-family: apple-chancery;
+    align-content: center;
+    color:black;
+    width:100%;
+}
+
+h1{
+   
+    font-family: apple-chancery;
+    font-size: 100px;
+    text-align:center;
+}
+

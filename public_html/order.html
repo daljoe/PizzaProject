@@ -1,0 +1,150 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title> Your Title Here </title>
+
+<style>
+    
+    body{
+        
+        background-image: url("https://cdn.modpizza.com/wp-content/uploads/2016/11/mod-pizza-maddy-default-e1479167621575.png");
+    }
+    
+</style>
+
+<meta name="Description" content="Your description here..." />
+<meta name="Keywords" content="Your keywords here..." />
+
+<link href="MainCSS.css" rel="stylesheet" type="text/css"</link>
+
+</head>
+
+<body>
+
+<H2 align="center"> Order Pizza </H2>
+<table class = orderTable align="center">
+<form method="post" action="/phpbin/yourscript.php">
+<tr>
+	<td align="right"  class=orderColor><b>Customer Information:</b></td>
+	<td class=orderColor>&nbsp;</td>
+</tr>
+<tr>
+	<td align="right">Your Name:</td>
+	<td><input type="text" name="name"></td>
+</tr>
+
+<tr>
+	<td align="right">Email Address:</td>
+	<td><input type="text" name="email"></td>
+</tr>
+<tr>
+	<td align="right">Geographical Address:</td>
+	<td><input type="text" name="address"></td>
+</tr>
+<tr>
+	<td align="right">City/Town:</td>
+	<td><input type="text" name="city"></td>
+</tr>
+
+<tr>
+	<td align="right">Zip/Postal:</td>
+	<td><input type="text" name="zip"></td>
+</tr>
+    
+<tr>
+	<td align="right">Type of Address:</td>
+        <td<select name="TypeofAddress"></td>
+    <td align="left">
+ <select name="" size="1">
+	<option value="">School</option>
+	<option value="">Work </option>
+        <option value=""> Home </option>
+</select></td>
+</tr>
+    
+    
+<tr>
+	<td align="right">Telephone:</td>
+	<td><input type="text" name="telephone"></td>
+</tr>
+<tr>
+	<td align="right">Comments:</td>
+   <td><TEXTAREA NAME = "comments" ROWS = "4" COLS = "36"></TEXTAREA></td>
+</tr>
+</table align="center">
+<br>
+<table  class = orderTable align="center">
+<tr>
+	<td align="right"  class=orderColor><b>Select Pizza size:</b></td>
+	<td  class=orderColor>&nbsp;</td>
+</tr>
+<tr>
+	<td align="right"><input type="radio" name="size" value="12" Checked></td>
+	<td>12 inch</td>
+</tr>
+<tr>
+	<td align="right"><input type="radio" name="size" value="14"></td>
+	<td>14 inch</td>
+</tr>
+<tr>
+	<td align="right"><input type="radio" name="size" value="15"></td>
+	<td>15 inch</td>
+</tr>
+<tr>
+	<td align="right"  class=orderColor><b>Select Pizza type:</b></td>
+	<td  class=orderColor>&nbsp;</td>
+</tr>
+<tr>
+<td align="right">
+ <select name="" size="1">
+	<option value="">Calzone</option>
+	<option value="">Marinara </option>
+	<option value=""> Margherita </option>
+	<option value="">Capricciosa</option>
+	<option value="">Vegetarian </option>
+</select></td>
+</tr>
+
+<tr>
+	<td align="right"  class=orderColor><b>Extra topings:</b></td>
+	<td  class=orderColor>&nbsp;</td>
+</tr>
+<tr>
+<td align="right">cheese
+<input type="checkbox" name="extra"  value ="cheese">
+</td> 
+</tr>
+<tr>
+<td  align="right">olive
+<input type="checkbox" name="extra"  value ="olive">
+</tr>
+<tr>
+<td  align="right">onion
+<input type="checkbox" name="extra"  value ="onion">
+</td> 
+</tr>
+</table>
+<br>
+
+<table class = orderTable align="center">
+<tr>
+	<td align="right"  class=orderColor><b>Payment Information:</b></td>
+	<td  class=orderColor>&nbsp;</td>
+</tr>
+
+<tr>
+	<td align="right">Credit Card Number:</td>
+	<td><input type="password" name="ccname"></td>
+</tr>
+
+
+<tr>
+	<td>&nbsp;</td>
+	<td><input type="submit" value="Submit"><input type="reset" value ="Reset"></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
